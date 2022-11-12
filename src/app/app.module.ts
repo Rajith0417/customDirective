@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BackgroudColorDirective } from './custom/backgroud-color.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BackgroudColorDirective
   ],
   imports: [
     BrowserModule,

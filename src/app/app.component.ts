@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BackgroudColorDirective } from './custom/backgroud-color.directive';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'customDirectives';
+  number: number = 0;
+
+
 }
